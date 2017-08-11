@@ -1,1 +1,1 @@
-<?php include_once("layout.jade"); ?>
+<?php include_once("layout.pug"); ?>
