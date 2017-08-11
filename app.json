@@ -1,0 +1,6 @@
+{
+  "name": "dra-portfolio",
+  "description": "Daniel Arnost portfolio",
+  "repository": "https://github.com/danielarnost/dra-portfolio",
+  "keywords": ["node", "express", "heroku"]  
+}
