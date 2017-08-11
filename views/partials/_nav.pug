@@ -1,0 +1,32 @@
+nav#navbar.navbar.navbar-default.navbar-fixed-top
+        .container-fluid        
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
+              span.sr-only Toggle navigation            
+              span.icon-bar            
+              span.icon-bar            
+              span.icon-bar            
+            a#name.navbar-brand.animsition-link(href='/') Daniel Arnost        
+          .collapse.navbar-collapse.navbar-ex1-collapse
+            ul#links.nav.navbar-nav.navbar-right
+              li
+                a.animsition-link(href='/work')
+                  h5 work
+              li
+                a.animsition-link(href='/contact')
+                  h5 contact              
+              li
+                a(href='https://github.com/danielarnost')
+                  img(height='30em', src='/static/images/GitHub-48.png')
+              li
+                a(href='https://www.linkedin.com/in/daniel-arnost-3b862a80?trk=nav_responsive_tab_profile_pic')
+                  img(height='30em', src='/static/images/LinkedIn-48.png')
+              //- li
+              //-   a(href='http://stackoverflow.com/users/6637612/daniel-arnost')
+              //-     img(height='30em', src='/static/images/stackoverflow1.png')
+              li.twitter
+                a(href='https://twitter.com/daniel_arnost')
+                  img.twitter(height='25em', src='/static/images/twitter-icon.png')
+              li#email
+                  a(href='#')
+                    h5 danielarnost@gmail.com

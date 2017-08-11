@@ -1,0 +1,349 @@
+/*index---------------*/
+html, body {
+background-image: url("/static/images/minback-2.jpg");
+height: 100%; 
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;	
+}
+/*navbar*/
+#navbar{
+	height:6px;	 
+	border-bottom: 2px solid rgba(140, 0, 26, 1);
+	background-color: black;
+	align-items: center;
+  justify-content: center ;
+}
+
+
+.twitter{
+padding-top:.15rem;
+
+}	
+
+
+ul li a {
+margin-top: -.4rem;
+padding-right: 	-1rem;
+}
+
+
+ul li img:hover {
+	opacity: 0.5;
+}
+h5{
+	font-size:1.5rem;
+	margin-bottom: 0.5rem;
+}
+h5:hover {
+
+color:white;
+}
+
+.strip {
+/*	padding:2rem 1rem;	
+	background: rgba(112, 143, 163, 0.5);
+	border-top: 1px solid #fff;
+	width: 80%;
+	margin:  auto;
+	border-radius-top: 10%;
+	border-radius-bottom:10%;
+	-webkit-border-radius: 2rem;
+	-webkit-border-bottom: 3%;
+	-moz-border-radius: 5%;
+	-o-border-radius: 5%;
+	box-shadow:  0 15px 20px -12px rgba(0, 0, 0, 0.8);
+	text-align:center;*/
+
+background: url('/static/images/coffeebackground.png') no-repeat center  ;
+box-shadow:  0 15px 20px -12px rgba(0, 0, 0, 0.8);
+border: 1px solid rgba(140, 0, 26, 1);
+text-align:center;
+width: 70%;
+margin: auto;
+color:black;
+}
+.inner {	
+	display: inline-block;
+/*	background-image: url('../images/gradient2.png');*/
+	/*background: url('../images/gradient4.jpg') no-repeat center;
+	background-size:cover;
+	margin:auto;*/
+/*	opacity: 0.5;*/
+	
+	/*background-repeat:no-repeat;*/
+	/*background-position:center;*/
+}
+
+.inner img {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%; 
+	border: 2px solid rgba(0, 0, 0, 1) ; /* need rgba*/
+	z-index:50;
+	text-align: center;
+}
+
+.intro-text h2{
+	color: black;
+	text-align: center;
+	font-family:  'Titillium Web', sans-serif;
+		
+  font-weight: bold;
+	letter-spacing: 0.5rem;
+}
+
+.tagline h1 {
+	-webkit-animation: text-shadow-pop-top 0.6s both;
+	-moz-animation: text-shadow-pop-top 0.6s both;
+	animation: text-shadow-pop-top 0.6s both;
+	font-family:  'Titillium Web', sans-serif;
+}
+
+.centered {
+	text-align: center;
+}
+
+/*.container-fluid {
+	width: 85%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+*/
+.container-text {
+	font-size: 120%;
+	text-align: justify;
+}
+
+/*CAROUSEL STYLES-------------------------------------------*/
+#slick{
+width:100%;
+background-color: rgba(128, 21, 21, .8);
+border-top:1px solid black;
+border-bottom: 	1px solid black;
+
+}
+
+#carousel-title{
+	font-family: 'Ubuntu', sans-serif;
+
+	line-height: 1.5;
+	border-bottom: 1px solid black;
+	color: white;
+}
+.slides h3{
+
+font-style: italic;
+font-family: 'Ubuntu', sans-serif;
+/*color: rgba(119,119,119,0.7);*/
+color:white;
+}
+
+/*-----------------------bottom ethos description----------------*/
+
+#aspiration{
+margin:auto;
+width: 90%;
+background: rgba(231,229,229, 0.9);
+box-shadow:  0 15px 20px -12px rgba(0, 0, 0, 0.8);
+border-radius: 0.5rem;
+border:1px solid rgba(140, 0, 26, 1);
+/*	-webkit-border-radius: 1%;
+	-moz-border-radius: 1%;
+	-o-border-radius: 1%; */
+}
+
+
+#aspiration h2{
+color: #777;
+opacity:1.0;
+font-family: 'Titillium Web', sans-serif;
+letter-spacing: 0.3rem;
+font-weight:bold;
+
+border-bottom: 1px solid rgba(140, 0, 26, 1);
+}
+
+
+
+#aspiration p{
+color: black;
+font-family: 'Ubuntu', sans-serif;
+}
+
+/*--------------------------------------------------------*/
+/*work page*/
+#skills-header{
+font-family: 'Titillium Web', sans-serif;
+}
+#skillz{
+color: rgba(119,119,119);
+opacity: 	0.7;
+background-color:rgba(	7,8,9,0.5);
+
+width: 100%;
+background: black;
+border: 	2px solid rgba(140, 0, 26, 1) ;
+}
+
+#skillz p{
+font-family: 'Source Sans Pro:400', sans-serif;
+
+}
+.card-img-top {
+	width: 100%;
+}
+
+.card {
+	background: rgb(100, 100, 100);
+	border: 	1px solid black;
+}
+
+.card-block {
+	padding: 13px 15px;
+	color: white;
+}
+
+a.btn.btn-primary {
+	background: #103E50;
+	border: 0;
+	width: 100%;
+	padding: 9px;
+	border-radius: 0;
+}
+
+a.btn.btn-primary:hover, a.btn.btn-primary:visited, a.btn.btn-primary:active {
+	background: #103E50;
+	border: 0;
+}
+
+.card h4 {
+	font-size: 130%;
+}
+
+button.btn.btn-primary {
+	border-radius: 0;
+}
+
+.form-group input {
+	background: rgb(80, 80, 80);
+	border-radius: 0;
+	color: white;
+	width: 100%;
+}
+#commentArea{
+	color:white;
+}
+
+.form-group textarea {
+	background: rgb(80, 80, 80);
+	border-radius: 0;
+	border: 0;
+	outline: 0;
+	resize: none;
+}
+
+input {
+	border: none !important;
+	outline: none;
+ 	-webkit-box-shadow: none !important;
+ 	-moz-box-shadow: none !important;
+ 	box-shadow: none !important;
+}
+
+#submit {
+	background: #d3d3d3;
+	color: white;
+	padding: 6px 40px;
+	outline: 0;
+	font-size: 120%;
+	width:20px;
+	float: right;
+}
+
+.form-control {
+	position: relative;
+	left: 0;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity: 1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity: 1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+/*CONTACT CAROUSEL------------------------------------------------*/
+
+h1#carousel-title.text-center {
+	color :black;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+	.whitespace {
+		height: 15px;
+	}
+
+	#submit {
+		width: 100%;
+	}
+}
+
+/* work.html  */
+/* badges */
+/* Controls width of the widget */
+.badge-container {width:700px; margin: 0 auto;}
+
+/* Makes Badges display inline */
+#badges li { display: inline;}
+
+/* Controls badges row offset. THIS FUNCTION WILL CHANGE BASED ON THE NUMBER OF BADGES PER ROW */
+/* Indent 30px every eleventh badge, repeat every 20 badges */
+#badges li:nth-child(10n+10) {margin-left:5px;}
+
+/* Controls badges size and alignment */
+#badges li img {
+  width: 60px; 
+  margin: 5px 2px 0px 0px;
+}
+
+/* Controls Header Formatting */
+#treehouse-count  {
+  text-align:center; 
+  font-family:  'Titillium Web', sans-serif; 
+  font-weight: bold; 
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Controls badges on-hover opacity */
+#badges li img:hover {opacity:.7;}
+
+#badges li img:hover {
+	-webkit-animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	-moz-animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: flip-diagonal-2-br 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+/*FORM PAGE-----------------------------------------------------*/
+.slides-contact{
+
+
+}

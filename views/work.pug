@@ -1,0 +1,92 @@
+extends ./layout.pug
+
+block content
+      #pagetop     
+      br
+      br
+      br
+      br
+      br
+      .container-fluid.animsition
+        #skillz.row
+          .col-md-12
+            h2#skills-header(align='right')
+              em Skills
+            p.container-text
+              | My time at the Coding Bootcamp at UT Austin has given me an introduction to a range of full stack (primary focus on MERN stack) skills  including HTML, CSS, javascript libraries, NodeJS, MySQL, MongoDB, react, among others. I am excited to keep learning new skills as well as perfecting my old ones.
+        .col-md-12.text-center
+          .report-card.treehouse
+            h1#treehouse-count
+            ul#badges
+          em
+            h2
+              | Recent Projects
+          .row
+            p.container-text
+              | My recent projects incuding homework during the Coding Bootcamp at UT Austin.
+        br
+        .row
+          .col-md-4
+            .card
+              img.card-img-top(src='/static/images/crystal2.png', alt='game', height='200 em')
+              .card-block                
+                h4 Crystal Collector
+                p.card-text
+                  | This is a simple game called crystal collector built with Bootstrap and javascript.
+              a.btn.btn-primary(href='https://dashboard.heroku.com/apps/stormy-inlet-15789') Heroku Deploy
+          .whitespace
+          .col-md-4
+            .card
+              img.card-img-top(src='/static/images/hangman-clipart-1.jpg', alt='#', height='200 em')
+              .card-block
+                h4 Hangman
+                p.card-text
+                  | This hangman game is made using bootstrap and javascript, the theme is legendary guitarists.
+              a.btn.btn-primary(href='https://fathomless-cove-18069.herokuapp.com/') Heroku Deploy
+          .whitespace
+          .col-md-4
+            .card
+              img.card-img-top(src='/static/images/tyt.jpg', alt='#', height='200em')
+              .card-block
+                h4 Web Scraper
+                p.card-text
+                  | I used javascript to scrape a news outlet called "The Young Turks".
+              a.btn.btn-primary(href='#') Heroku Deploy
+        br
+        .row
+          .col-md-4
+            .card
+              img.card-img-top(src='static/images/quiz.png', alt='#', height='200em')
+              .card-block
+                h4 Trivia game
+                p.card-text
+                  | Simple timed trivia game using Bootstrap and javascript.
+              a.btn.btn-primary(href='https://boiling-depths-13902.herokuapp.com/#') Heroku Deploy
+          .whitespace
+          .col-md-4
+            .card
+              img.card-img-top(src='static/images/tinder.png', alt='#', height='200 em')
+              .card-block
+                h4 Friend Finder
+                p.card-text
+                  | This app takes user input from a survey and matches the user with the celebrity friend that matches the closest friend.
+              a.btn.btn-primary(href='https://haunted-monster-26725.herokuapp.com/') Heroku Deploy
+          .whitespace
+          .col-md-4
+            .card
+              img.card-img-top(src='static/images/burg.jpg', alt='#', height='200 em')
+              .card-block
+                h4 Sequel Burger App
+                p.card-text
+                  | This app uses MySQL and Express to create a full stack app that creates and destroys burgers.
+              a.btn.btn-primary(href='https://aqueous-fjord-81672.herokuapp.com') Heroku Deploy
+        br
+        br        
+        br
+        .container-fluid
+          .row
+            .col-md-12
+              h2(align='right') Contact
+              p.container-text
+                | If you would like to contact me, please feel free to email me at danielarnost@gmail.com, fill out the contact form or see my resume to contact me directly by phone.
+      

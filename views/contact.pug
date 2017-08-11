@@ -1,0 +1,43 @@
+extends ./layout.pug
+
+block content
+      .whitespace
+      br
+      br
+      br
+      br
+      br
+      .container-fluid.animsition
+        .col-md-12
+          form.form-horizontal(action='/contact/submit', method='post')
+            .form-group
+              input#name.form-control.col-md-9(type='text', name='name', placeholder='Your Name')
+            .form-group
+              input#name.form-control.col-md-9(type='email', name='email', placeholder='Your Email')
+            .form-group
+              input#commentArea.form-control.col-md-9(type='text', name='longstring', placeholder='Your Comments')
+            .form-group              
+              button#submit.btn.btn-default.pull-right(type='submit', value='Submit')
+                i.glyphicon.glyphicon-send
+        br
+        .container-fluid#contact-carousel
+        h1#carousel-title.text-center Personal Interests           
+          .slides
+            //- h1.text-center Field Geology in Switzerland and Greece
+            .slide1 
+              .grid-half 
+                img( src='/static/images/greece2.jpg' style="border: 2px solid rgba(140, 0, 26, 1); height:40rem; margin:0 auto")
+            .slide2 
+              .grid-half 
+                img(src='/static/images/swiss1.jpg' style="border: 2px solid rgba(140, 0, 26, 1); height:40rem; margin:0 auto")
+            .slide3 
+              .grid-half 
+                img(src='/static/images/swiss2.jpg' style="border: 2px solid rgba(140, 0, 26, 1); height:40rem; margin:0 auto")
+            .slide4 
+              .grid-half 
+                img(src='/static/images/minimal-art-4.jpg' style="border: 2px solid black; height:40rem; margin:0 auto")
+                h3(align='center') Minimal Art Lover
+            .slide5
+              .grif-half
+                img(src='/static/images/climbing.jpg' style="border: 2px solid rgba(140, 0, 26, 1); height:40rem; margin:0 auto")
+                h3(align='center') Bouldering in the Greek Islands
