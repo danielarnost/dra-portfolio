@@ -180,20 +180,23 @@ font-family: 'Ubuntu', sans-serif;
 /*work page*/
 #skills-header{
 font-family: 'Titillium Web', sans-serif;
+color: #777;
 }
 #skillz{
-color: rgba(119,119,119);
-opacity: 	0.7;
-background-color:rgba(	7,8,9,0.5);
-
-width: 100%;
-background: black;
-border: 	2px solid rgba(140, 0, 26, 1) ;
+margin:auto;
+width: 90%;
+background: rgba(231,229,229, 0.9);
+box-shadow:  0 15px 20px -12px rgba(0, 0, 0, 0.8);
+border-radius: 0.5rem;
+border:1px solid rgba(140, 0, 26, 1);
 }
 
 #skillz p{
-font-family: 'Source Sans Pro:400', sans-serif;
-
+color: black;
+font-family: 'Ubuntu', sans-serif;
+}
+#card-container{
+	max-width:80%;
 }
 .card-img-top {
 	width: 100%;
@@ -230,6 +233,12 @@ button.btn.btn-primary {
 	border-radius: 0;
 }
 
+#work-contact {
+	margin:0 auto;
+	text-align:center;
+	color: 	rgba(140, 0, 26, 0.8);
+	font-weight: 	bold;
+}
 .form-group input {
 	background: rgb(80, 80, 80);
 	border-radius: 0;
